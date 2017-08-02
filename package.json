@@ -1,0 +1,27 @@
+{
+  "name": "Login-with-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramkumar23/Login-with-api.git"
+  },
+  "keywords": [],
+  "author": "Ramkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramkumar23/Login-with-api/issues"
+  },
+  "homepage": "https://github.com/Ramkumar23/Login-with-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "multer": "^1.3.0",
+    "node-fetch": "^1.7.1"
+  }
+}
