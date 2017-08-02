@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+	<title> <%= Username %> 's wallet </title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+	 <header>
+		<% include ../partials/header %>
+	 </header>
+	</div>
+<div class="row">
+    <div class="col-xs-12">
+	<div class="well">
+		<strong>
+			<p class="pull-right"><%= Username %></p>
+		</strong>
+	</div>
+        <div class="jumbotron">
+        	<p><%= message %></p>
+    	</div>
+	<div class="jumbotron">
+        	<p>Quick action</p>
+		<div class="row">
+			
+		</div>
+    	</div>
+    </div>
+</div>
+<div class="row">
+<footer>
+        <% include ../partials/footer %>
+ </footer>
+</div>
+</div>
+</body>
+</html>
+

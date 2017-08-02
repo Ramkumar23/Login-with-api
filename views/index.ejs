@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+ <header>
+	<% include ../partials/header %>
+	<title> ZusPay Wallet </title>
+ </header>
+</div>
+<div class="row">
+    <div class="col-xs-5 col-sm-offset-4">
+        <form action = "http://127.0.0.1:8081/process_post" method = "POST">
+            <div class="form-group">
+                <label for="mobile_number">Mobile Number</label>
+                <input type="text" class="form-control" name="mobile_number" id="mobile_number" placeholder="UserName">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+</div>
+<div class="row">
+<footer>
+        <% include ../partials/footer %>
+    </footer>
+</div>
+</body>
+</html>
+
